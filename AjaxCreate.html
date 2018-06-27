@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
+    <script src="js/AjaxCreate.js"></script>
+</head>
+<body>
+    <table class="table table-sm">
+        <tr>
+            <th>Id</th>
+            <td> <input type="number" id="pId"></td>
+        </tr>
+        <tr>
+            <th>Username</th>
+            <td><input type="text" id="pUsername"></td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td><input type="password" id="pPassword"></td>
+        </tr>
+        <tr>
+            <th>Firstname</th>
+            <td><input type="text" id="pFirstname"></td>
+        </tr>
+        <tr>
+            <th>Lastname</th>
+            <td><input type="text" id="pLastname"></td>
+        </tr>
+        <tr>
+            <th>Phone</th>
+            <td><input type="text" id="pPhone"></td>
+        </tr>        
+        <tr>
+            <th>Email</th>
+            <td><input type="text" id="pEmail"></td>
+        </tr>        
+        <tr>
+            <th>Reviewer?</th>
+            <td><input type="checkbox" id="pIsReviewer"></td>
+        </tr>
+        <tr>
+            <th>Admin?</th>
+            <td><input type="checkbox" id="pIsAdmin"></td>
+        </tr>
+        <tr>
+            <th>Active?</th>
+            <td><input type="checkbox" id="pActive"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button onclick="create();" class="btn btn-primary">Create</button>
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>
